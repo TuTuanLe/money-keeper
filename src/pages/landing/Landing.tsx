@@ -2,5 +2,5 @@ import React, { ReactElement } from "react";
 import { LandingStyled } from "./Landing.styles";
 
 export const Landing = (): ReactElement => {
-  return <LandingStyled>landingasdasidb</LandingStyled>;
+  return <LandingStyled>landing page test</LandingStyled>;
 };
