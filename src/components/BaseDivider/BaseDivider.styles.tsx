@@ -1,4 +1,4 @@
-import { Divider } from "antd";
 import styled from "styled-components";
+import { Divider } from "antd";
 
-export const BaseDividerStyled = styled(Divider)``
+export const BaseDividerStyled = styled(Divider)``;
