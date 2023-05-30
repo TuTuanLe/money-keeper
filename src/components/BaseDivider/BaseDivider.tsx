@@ -2,9 +2,9 @@ import React, { ReactElement } from "react";
 import { DividerProps } from "antd";
 import { BaseDividerStyled } from "./BaseDivider.styles";
 
-export interface BaseDividerPops extends DividerProps {}
+export interface BaseDividerProps extends DividerProps {}
 
-export const BaseDivider = (props: BaseDividerPops): ReactElement => {
+export const BaseDivider = (props: BaseDividerProps): ReactElement => {
   const { children, ...rest } = props;
   return <BaseDividerStyled {...rest}>{children}</BaseDividerStyled>;
 };
