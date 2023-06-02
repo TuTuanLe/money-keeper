@@ -1,1 +1,1 @@
-export * from "./BaseDivider"
+export * from "./BaseDivider";
