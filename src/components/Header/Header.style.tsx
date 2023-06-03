@@ -10,10 +10,26 @@ export const HeaderContainer = styled.header`
 
   font-family: ${font};
   color: ${textColor};
+  background-color: ${primaryColor};
+
+  body {
+    line-height: 1;
+    font-family: $font;
+    color: $text-color;
+    font-weight: 400;
+    background-color: white;
+  }
+
+  button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: $font;
+  }
 
   .wrapper {
     max-width: 1400px;
-    margin: 0;
+    margin: auto;
     padding-top: 0;
   }
 
@@ -21,7 +37,6 @@ export const HeaderContainer = styled.header`
     max-width: 1290px;
     margin: 0 auto;
     padding: 15px;
-    background-color: ${primaryColor};
   }
 
   /* Body */
