@@ -7,15 +7,15 @@ const primaryColor = "#4b4aef";
 
 export const BackgroundImage = styled.div`
   position: relative;
-  background-color: ${primaryColor};
-  clip-path: polygon(0 0, 100% 0%, 78% 99%, 0% 100%);
-  height: 750px;
   top: -100px;
-  margin-right: 600px;
+  right: 20vw;
+  background-color: ${primaryColor};
+  height: 750px;
+  clip-path: polygon(0 0, 100% 0%, 78% 99%, 0% 100%);
   z-index: -1;
 
   .pain-big {
-    height:200px
+    height: 200px;
     background-color: #5251f0;
     clip-path: polygon(
       100% 0,
@@ -33,14 +33,14 @@ export const BackgroundImage = styled.div`
 
 export const HeaderContainer = styled.header`
   /* Base */
-
+  position: relative;
   font-family: ${font};
   color: ${textColor};
 
   body {
     line-height: 1;
-    font-family: $font;
-    color: $text-color;
+    font-family: ${font};
+    color: ${textColor};
     font-weight: 400;
     background-color: white;
   }
@@ -49,7 +49,7 @@ export const HeaderContainer = styled.header`
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: $font;
+    font-family: ${font};
   }
 
   .wrapper {
