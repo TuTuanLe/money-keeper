@@ -13,6 +13,22 @@ export const BackgroundImage = styled.div`
   top: -100px;
   margin-right: 600px;
   z-index: -1;
+
+  .pain-big {
+    height:200px
+    background-color: #5251f0;
+    clip-path: polygon(
+      100% 0,
+      98% 31%,
+      90% 53%,
+      74% 63%,
+      59% 63%,
+      46% 84%,
+      33% 96%,
+      0 100%,
+      0 0
+    );
+  }
 `;
 
 export const HeaderContainer = styled.header`

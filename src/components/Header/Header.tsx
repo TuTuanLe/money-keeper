@@ -60,7 +60,9 @@ function Header(props: HeaderProps): ReactElement {
           </div>
         </div>
       </div>
-      <BackgroundImage></BackgroundImage>
+      <BackgroundImage>
+        <div className="pain-big"></div>
+      </BackgroundImage>
     </HeaderContainer>
   );
 }
