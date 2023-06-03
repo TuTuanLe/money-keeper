@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { HeaderContainer } from "./Header.style";
+import { HeaderContainer, BackgroundImage } from "./Header.style";
 import logo2x from "./Logo.png";
 import "./_reset.css";
 
@@ -41,13 +41,13 @@ function Header(props: HeaderProps): ReactElement {
                 </a>
               </li>
               {/* <li className="menu-item menu-item--auth">
-                <a href="#" className="header-signin">
-                  Đăng Nhập
-                </a>
-                <a href="#" className="button button--outline">
-                  Đăng Kí
-                </a>
-              </li> */}
+                  <a href="#" className="header-signin">
+                    Đăng Nhập
+                  </a>
+                  <a href="#" className="button button--outline">
+                    Đăng Kí
+                  </a>
+                </li> */}
             </ul>
             <div className="header-auth">
               <a href="" className="header-signin">
@@ -60,6 +60,7 @@ function Header(props: HeaderProps): ReactElement {
           </div>
         </div>
       </div>
+      <BackgroundImage></BackgroundImage>
     </HeaderContainer>
   );
 }

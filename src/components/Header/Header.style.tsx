@@ -5,12 +5,21 @@ const textColor = "#575757";
 const headingColor = "#4a4a4a";
 const primaryColor = "#4b4aef";
 
+export const BackgroundImage = styled.div`
+  position: relative;
+  background-color: ${primaryColor};
+  clip-path: polygon(0 0, 100% 0%, 78% 99%, 0% 100%);
+  height: 750px;
+  top: -100px;
+  margin-right: 600px;
+  z-index: -1;
+`;
+
 export const HeaderContainer = styled.header`
   /* Base */
 
   font-family: ${font};
   color: ${textColor};
-  background-color: ${primaryColor};
 
   body {
     line-height: 1;
