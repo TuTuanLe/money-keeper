@@ -5,9 +5,9 @@ import { LayoutMain } from "./layouts/LayoutMain";
 
 function App() {
   return (
-    <LayoutMain>
-      <BaseRoutes />
-    </LayoutMain>
+    // <LayoutMain>
+    <BaseRoutes />
+    // </LayoutMain>
   );
 }
 
