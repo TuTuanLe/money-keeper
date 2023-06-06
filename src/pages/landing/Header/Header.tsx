@@ -24,14 +24,14 @@ export const Header = (): ReactElement => {
                 <li>
                   <a href="#" className="menu-item">
                     Sản phẩm
+                    <DownOutlined style={{ color: "#ffffff" }} />
                   </a>
-                  <DownOutlined />
                 </li>
                 <li>
                   <a href="#" className="menu-item">
                     Giải pháp
+                    <DownOutlined style={{ color: "#ffffff" }} />
                   </a>
-                  <DownOutlined />
                 </li>
                 <li>
                   <a href="#" className="menu-item menu-iconless">

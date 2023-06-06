@@ -45,6 +45,7 @@ export const HeaderContainer = styled.header`
   position: relative;
   font-family: ${font};
   color: ${textColor};
+  padding-top: 37px;
 
   body {
     line-height: 1;
@@ -69,7 +70,6 @@ export const HeaderContainer = styled.header`
   font-weight: 200;
 
   .header {
-    padding-top: 37px;
     &-container {
       display: flex;
       justify-content: space-between;
@@ -95,7 +95,12 @@ export const HeaderContainer = styled.header`
       color: #ffffff;
     }
     &-iconless {
+      color: #ffffff;
+    }
+    &-item {
       padding-right: 16px;
+      font-size: 16px;
+      color: #ffffff;
     }
   }
 
@@ -103,5 +108,12 @@ export const HeaderContainer = styled.header`
     list-style: none;
     display: flex;
     align-items: center;
+  }
+
+  .signin {
+    color: ${headingColor};
+  }
+  .signup {
+    color: ${headingColor};
   }
 `;
