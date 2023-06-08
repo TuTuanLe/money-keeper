@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import {
   HeaderContainer,
-  BackgroundImage,
+  // BackgroundImage,
   Wrapper,
   Container,
 } from "./Header.style";
@@ -57,10 +57,10 @@ export const Header = (): ReactElement => {
                 </li>
               </div>
             </div>
-            <BackgroundImage>
+            {/* <BackgroundImage>
               <div className="pain-big"></div>
               <div className="pain-small"></div>
-            </BackgroundImage>
+            </BackgroundImage> */}
           </Container>
         </Wrapper>
       </HeaderContainer>
