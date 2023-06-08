@@ -27,6 +27,14 @@ export const BackgroundImage = styled.div`
     background-color: #5251f0;
     clip-path: polygon(63% 0, 53% 57%, 39% 86%, 24% 70%, 11% 78%, 0 100%, 0 0);
   }
+  .pain-small {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    background-color: #5958f1;
+    clip-path: polygon(51% 0, 35% 19%, 26% 23%, 17% 24%, 8% 49%, 0 60%, 0 0);
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -39,13 +47,15 @@ export const Container = styled.div`
   max-width: 1290px;
   margin: 0 auto;
   padding: 15px;
+  position: relative;
+  top: 0;
 `;
 export const HeaderContainer = styled.header`
   /* Base */
   position: relative;
   font-family: ${font};
   color: ${textColor};
-  padding-top: 37px;
+  padding-top: 20px;
 
   body {
     line-height: 1;
@@ -112,8 +122,12 @@ export const HeaderContainer = styled.header`
 
   .signin {
     color: ${headingColor};
+    margin-right: 16px;
   }
   .signup {
     color: ${headingColor};
+    padding: 12px 32px;
+    border-radius: 8px;
+    background-color: #ffca1d;
   }
 `;

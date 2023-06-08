@@ -59,6 +59,7 @@ export const Header = (): ReactElement => {
             </div>
             <BackgroundImage>
               <div className="pain-big"></div>
+              <div className="pain-small"></div>
             </BackgroundImage>
           </Container>
         </Wrapper>
