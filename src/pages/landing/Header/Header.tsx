@@ -50,11 +50,11 @@ export const Header = (): ReactElement => {
                     Đăng Nhập
                   </a>
                 </li>
-                <li>
-                  <a href="" className="signup">
+                <div className="signup">
+                  <a href="" className="">
                     Đăng Kí
                   </a>
-                </li>
+                </div>
               </div>
             </div>
             {/* <BackgroundImage>

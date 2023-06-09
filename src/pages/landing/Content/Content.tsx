@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import { ContentContainer } from "./Content.Style";
+import Icon, { StarFilled, StarOutlined } from "@ant-design/icons";
 
 import logo2x from "../img/image1.png";
 import logo2x2 from "../img/image2.png";
@@ -27,17 +28,48 @@ export const Content = (): ReactElement => {
               </div>
               <div className="hero-item">
                 <div className="hero-intro1">
-                  <h2 className="hero-intro1-name">Lucy</h2>
-                  <img srcSet={srcSet} alt="" className="hero-intro1-image" />
-                  <p className="hero-intro1-desc"></p>
-                  <p className="hero-intro1-desc"></p>
+                  <div className="hero-intro1-image-container">
+                    <h2 className="hero-intro1-name">Lucy</h2>
+                    <div className="hero-intro1-image">
+                      <img srcSet={srcSet} alt="" />
+                    </div>
+                  </div>
+                  <div className="hero-intro1-desc">
+                    <p className="hero-intro1-desc-progress">Done</p>
+                    <p className="hero-intro1-desc-name">Lucy Niana</p>
+                    <p className="hero-intro1-desc-status">
+                      Develop Communication Plan
+                    </p>
+                    <div className="hero-intro1-desc-icon">
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#CCCCCC" }} />
+                    </div>
+                  </div>
                 </div>
                 <div className="hero-intro2">
-                  <h2 className="hero-intro2-name">Mark</h2>
-                  <img srcSet={srcSet2} alt="" className="hero-intro2-image" />
-                  <p className="hero-intro1-desc">
-                    Cập nhật thông tin chi tiêu{" "}
-                  </p>
+                  <div className="hero-intro2-image-container">
+                    <h2 className="hero-intro2-name">Mark</h2>
+                    <div className="hero-intro2-image">
+                      <img srcSet={srcSet2} alt="" />
+                    </div>
+                  </div>
+                  <div className="hero-intro2-desc">
+                    <p className="hero-intro2-desc-progress">Pending</p>
+                    <p className="hero-intro2-desc-name">Mark Anderson</p>
+                    <p className="hero-intro2-desc-status">
+                      Develop Communication Plan
+                    </p>
+                    <div className="hero-intro1-desc-icon">
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                      <StarFilled style={{ color: "#FFCD1A" }} />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

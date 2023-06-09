@@ -11,6 +11,8 @@ export const Header = styled.div`
   position: relative;
   font-family: ${font};
   color: ${textColor};
+  max-width: 1400px;
+  margin: auto;
 
   .wrapper {
     max-width: 1400px;
