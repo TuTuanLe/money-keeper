@@ -153,6 +153,46 @@ export const ContentContainer = styled.main`
     }
   }
 
+  .hero {
+    &-content {
+    }
+    &-heading {
+      display: inline-block;
+      font-size: 16px;
+      color: #606060;
+
+      background-color: #ffffff;
+      padding: 9px 20px;
+      border-radius: 8px;
+      box-shadow: 1.4px 1.4px 9px rgba(38, 40, 82, 0.1);
+    }
+    &-text {
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: 2%;
+      color: #ffffff;
+
+      margin: 12px 12px 12px 0px;
+    }
+    &-minitext {
+      font-size: 22px;
+      line-height: 36px;
+      letter-spacing: 2%;
+      color: #ffffff;
+
+      margin: 30px 0;
+    }
+    &-button {
+      font-size: 20px;
+      line-height: 24px;
+      color: #2c2c2c;
+
+      padding: 14px 34px;
+      border-radius: 8px;
+      background-color: #ffca1d;
+    }
+  }
+
   .hero-intro1-image-container {
     position: relative;
   }

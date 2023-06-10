@@ -57,10 +57,6 @@ export const Header = (): ReactElement => {
                 </div>
               </div>
             </div>
-            {/* <BackgroundImage>
-              <div className="pain-big"></div>
-              <div className="pain-small"></div>
-            </BackgroundImage> */}
           </Container>
         </Wrapper>
       </HeaderContainer>

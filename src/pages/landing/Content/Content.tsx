@@ -19,9 +19,9 @@ export const Content = (): ReactElement => {
           <div className="container">
             <div className="hero-container">
               <div className="hero-content">
-                <div className="hero-heading">👋 Welcome to TeamFlow</div>
+                <p className="hero-heading">👋 Welcome to TeamFlow</p>
                 <h1 className="hero-text">Ứng dụng quản lí chi tiêu</h1>
-                <p className="hero-desc">tạo và phát triển tiện dụng </p>
+                <p className="hero-minitext">tạo và phát triển tiện dụng </p>
                 <a href="#" className="hero-button">
                   Bất Đầu
                 </a>

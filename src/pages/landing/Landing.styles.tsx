@@ -4,9 +4,7 @@ const textColor = "#575757";
 const headingColor = "#4a4a4a";
 const primaryColor = "#4b4aef";
 
-export const LandingStyled = styled.div``;
-
-export const Header = styled.div`
+export const LandingStyled = styled.div`
   /* Base */
   position: relative;
   font-family: ${font};
@@ -26,3 +24,5 @@ export const Header = styled.div`
     padding: 15px;
   }
 `;
+
+export const Header = styled.div``;
