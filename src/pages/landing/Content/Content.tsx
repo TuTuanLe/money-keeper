@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import { ContentContainer } from "./Content.Style";
 import Icon, { StarFilled, StarOutlined } from "@ant-design/icons";
+import { BsGraphUpArrow } from "react-icons/bs";
 
 import logo2x from "../img/image1.png";
 import logo2x2 from "../img/image2.png";
@@ -72,6 +73,43 @@ export const Content = (): ReactElement => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="features">
+          <div className="developed-by">
+            <h2 className="developed-by-title">Được phải triển bởi cá nhân </h2>
+            <div className="developed-by-logo">
+              <img src="../../GlobalStyles/image 1 (1).png" alt="" />
+              <img src="../img/features-image2.png" alt="" />
+              <img src="../img/features-image3.png" alt="" />
+              <img src="../img/features-image4.png" alt="" />
+            </div>
+          </div>
+          <div className="features-heading">What you can do?</div>
+          <div className="features-plan">
+            <div className="features-plan-item">
+              <BsGraphUpArrow />
+              <h3 className="features-plan-item-title">Kế hoạch quản lí </h3>
+              <p className="features-plan-item-desc">
+                Kế hoạch kinh doanh của chúng tôi là một tài liệu bằng văn bản
+                mô tả các hoạt động kinh doanh cốt lõi của công ty.
+              </p>
+            </div>
+            <div className="features-plan-item">
+              <h3 className="features-plan-item-title">Kế hoạch tài chính </h3>
+              <p className="features-plan-item-desc">
+                Đội ngũ chuyên gia của chúng tôi đưa ra quyết định hợp lý về
+                tiền bạc của họ, để đảm bảo họ đạt được các mục tiêu trong cuộc
+                sống. Một kế hoạch tài chính.
+              </p>
+            </div>
+            <div className="features-plan-item">
+              <h3 className="features-plan-item-title">Thống Kê </h3>
+              <p className="features-plan-item-desc">
+                Phân tích thị trường là một đánh giá định lượng và định tính của
+                một thị trường. Nó nhìn vào kích thước của thị trường.
+              </p>
             </div>
           </div>
         </section>

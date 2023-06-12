@@ -199,4 +199,18 @@ export const ContentContainer = styled.main`
   .hero-intro2-image-container {
     position: relative;
   }
+
+  /* features */
+
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+
+  .developed-by-logo img {
+    color: black;
+  }
 `;

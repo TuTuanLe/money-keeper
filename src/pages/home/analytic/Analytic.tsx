@@ -1,6 +1,13 @@
 import React from "react";
 import { AnalyticStyled } from "./Analytic.styles";
-import { AreaChart, BaseButton } from "components";
+import {
+  AreaChart,
+  BaseButton,
+  BaseModal,
+  BaseLayout,
+  BaseSearch,
+} from "../../../components";
+
 import { Image } from "antd";
 
 export const Analytic = () => {
@@ -16,7 +23,7 @@ export const Analytic = () => {
           width={45}
           height={45}
           preview={false}
-          src={require("assets/images/credit.webp")}
+          src={require("../../../assets/images/credit.webp")}
           style={{ borderRadius: "50%" }}
         />
         <div className="content">
@@ -29,7 +36,7 @@ export const Analytic = () => {
           width={45}
           height={45}
           preview={false}
-          src={require("assets/images/credit.webp")}
+          src={require("../../../assets/images/credit.webp")}
           style={{ borderRadius: "50%" }}
         />
         <div className="content">
@@ -42,7 +49,7 @@ export const Analytic = () => {
           width={45}
           height={45}
           preview={false}
-          src={require("assets/images/credit.webp")}
+          src={require("../../../assets/images/credit.webp")}
           style={{ borderRadius: "50%" }}
         />
         <div className="content">

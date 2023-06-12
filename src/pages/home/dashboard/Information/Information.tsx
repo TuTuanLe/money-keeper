@@ -1,7 +1,7 @@
 import React from "react";
 import { InformationStyled } from "./Information.styles";
 import { Space, Image } from "antd";
-import { BaseButton } from "components";
+import { BaseButton } from "../../../../components";
 
 export const Information = () => {
   return (
@@ -26,7 +26,7 @@ export const Information = () => {
           width={100}
           height={100}
           preview={false}
-          src={require("assets/images/info.jpg")}
+          src={require("../../../../assets/images/info.jpg")}
           style={{ borderRadius: "50%" }}
         />
 

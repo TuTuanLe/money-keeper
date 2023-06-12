@@ -9,7 +9,7 @@ import {
 import { Avatar, Badge, Button, Input, MenuProps, Popover, Space } from "antd";
 import { Layout, Menu, theme } from "antd";
 import { LayoutMainStyled } from "./LayoutMain.styles";
-import { BaseSearch } from "components";
+import { BaseSearch } from "../components";
 
 const { Header, Content, Sider } = Layout;
 

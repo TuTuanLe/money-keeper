@@ -1,7 +1,7 @@
 import React from "react";
 import { CreditReportStyled } from "./CreditReport.styles";
 
-import { AreaChart, BaseButton } from "components";
+import { AreaChart, BaseButton } from "../../../../components";
 
 import {
   EllipsisOutlined,
@@ -36,7 +36,7 @@ export const CreditReport = () => {
           width={100}
           height={100}
           preview={false}
-          src={require("assets/images/payment.jpg")}
+          src={require("../../../../assets/images/payment.jpg")}
           style={{ borderRadius: "50%" }}
         />
         <BaseButton>

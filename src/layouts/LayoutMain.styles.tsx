@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BaseLayout } from "components";
+import { BaseLayout } from "../components";
 
 export const LayoutMainStyled = styled(BaseLayout)`
   height: 100vh;
