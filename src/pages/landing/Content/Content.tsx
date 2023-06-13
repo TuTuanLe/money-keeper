@@ -2,9 +2,15 @@ import React, { ReactElement } from "react";
 import { ContentContainer } from "./Content.Style";
 import Icon, { StarFilled, StarOutlined } from "@ant-design/icons";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { FcIdea } from "react-icons/fc";
+import { RxMagnifyingGlass } from "react-icons/rx";
 
 import logo2x from "../img/image1.png";
 import logo2x2 from "../img/image2.png";
+import logo1 from "../img/features-image1.png";
+import logo2 from "../img/features-image2.png";
+import logo3 from "../img/features-image3.png";
+import logo4 from "../img/features-image4.png";
 
 import { GlobalStyles } from "../GlobalStyles/GlobalStyle.style";
 
@@ -80,16 +86,48 @@ export const Content = (): ReactElement => {
           <div className="developed-by">
             <h2 className="developed-by-title">Được phải triển bởi cá nhân </h2>
             <div className="developed-by-logo">
-              <img src="../../GlobalStyles/image 1 (1).png" alt="" />
-              <img src="../img/features-image2.png" alt="" />
-              <img src="../img/features-image3.png" alt="" />
-              <img src="../img/features-image4.png" alt="" />
+              <div
+                style={{
+                  width: "87px",
+                  height: "71px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundImage: `url(${logo1})`,
+                }}
+              />
+              <div
+                style={{
+                  width: "120.64px",
+                  height: "82.46px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundImage: `url(${logo2})`,
+                }}
+              />
+              <div
+                style={{
+                  width: "97.74px",
+                  height: "72.54px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundImage: `url(${logo3})`,
+                }}
+              />
+              <div
+                style={{
+                  width: "104.6px",
+                  height: "72.54px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundImage: `url(${logo4})`,
+                }}
+              />
             </div>
           </div>
-          <div className="features-heading">What you can do?</div>
+          <div className="features-heading">
+            What you <em>can do?</em>
+          </div>
           <div className="features-plan">
             <div className="features-plan-item">
-              <BsGraphUpArrow />
+              <div style={{ backgroundColor: "#3ADAD9" }}>
+                <BsGraphUpArrow />
+              </div>
               <h3 className="features-plan-item-title">Kế hoạch quản lí </h3>
               <p className="features-plan-item-desc">
                 Kế hoạch kinh doanh của chúng tôi là một tài liệu bằng văn bản
@@ -97,6 +135,9 @@ export const Content = (): ReactElement => {
               </p>
             </div>
             <div className="features-plan-item">
+              <div>
+                <FcIdea style={{ color: "#ffffff" }} />
+              </div>
               <h3 className="features-plan-item-title">Kế hoạch tài chính </h3>
               <p className="features-plan-item-desc">
                 Đội ngũ chuyên gia của chúng tôi đưa ra quyết định hợp lý về
@@ -105,6 +146,9 @@ export const Content = (): ReactElement => {
               </p>
             </div>
             <div className="features-plan-item">
+              <div style={{ backgroundColor: "#FD9B79" }}>
+                <RxMagnifyingGlass />
+              </div>
               <h3 className="features-plan-item-title">Thống Kê </h3>
               <p className="features-plan-item-desc">
                 Phân tích thị trường là một đánh giá định lượng và định tính của

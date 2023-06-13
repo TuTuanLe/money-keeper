@@ -11,6 +11,7 @@ export const ContentContainer = styled.main`
       justify-content: space-between;
       align-items: center;
       max-width: 1290px;
+      margin-bottom: 200px;
     }
     &-content {
       width: 100%;
@@ -128,6 +129,7 @@ export const ContentContainer = styled.main`
         margin-left: 18px;
         width: 286px;
         height: 130px;
+        border-radius: 14px;
         background-color: #ffffff;
         &-progress {
           position: absolute;
@@ -207,10 +209,88 @@ export const ContentContainer = styled.main`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    max-width: 1290px;
+    margin-top: 50px;
   }
 
-  .developed-by-logo img {
-    color: black;
+  .developed-by {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 124px;
+    &-title {
+      font-size: 24px;
+      line-height: 34px;
+      letter-spacing: 2%;
+      color: #515151;
+    }
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin-left: 50px;
+      }
+    }
+  }
+
+  .features-heading {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 550;
+    line-height: 27px;
+    letter-spacing: 2%;
+    color: #565656;
+
+    margin-bottom: 84px;
+    em {
+      color: #ffca1d;
+      font-style: normal;
+    }
+  }
+
+  .features-plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 24px;
+      div {
+        height: 78px;
+        width: 78px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 30px;
+        background-color: #fed369;
+        color: #ffffff;
+
+        margin-bottom: 46px;
+      }
+
+      &-title {
+        font-size: 18px;
+        line-height: 28px;
+        line-height: 2%;
+        align-content: center;
+        color: #2b3377;
+
+        margin-bottom: 30px;
+      }
+
+      &-desc {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        color: #585858;
+      }
+    }
   }
 `;
