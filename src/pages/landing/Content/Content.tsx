@@ -156,6 +156,28 @@ export const Content = (): ReactElement => {
               </p>
             </div>
           </div>
+          <div className="features-heading">
+            Những <em>Tính năng</em>
+          </div>
+          <div className="feature-container">
+            <div className="feature-container-cycle">
+              <div className="feature-container-cycle-line-1"></div>
+              <div className="feature-container-cycle-line-2"></div>
+              <div className="feature-container-cycle-line-3"></div>
+            </div>
+            <div className="feature-container-content">
+              <h2 className="feature-container-content-header">
+                Quản lí mọi thứ trong một không gian làm việc
+              </h2>
+              <p className="feature-container-content-text">
+                Lập kế hoạch, theo dõi và phân phối công việc tốt nhất của nhóm
+                bạn chưa bao giờ dễ dàng hơn thế. Một không gian làm việc tích
+                hợp dễ sử dụng, TeamFlow cho phép bạn dành ít thời gian hơn để
+                quản lý công việc của mình và có nhiều thời gian hơn để thực sự
+                thực hiện công việc đó.
+              </p>
+            </div>
+          </div>
         </section>
       </ContentContainer>
     </React.Fragment>

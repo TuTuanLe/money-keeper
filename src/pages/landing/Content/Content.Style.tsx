@@ -255,6 +255,7 @@ export const ContentContainer = styled.main`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 114px;
     &-item {
       display: flex;
       flex-direction: column;
@@ -290,6 +291,77 @@ export const ContentContainer = styled.main`
         line-height: 26px;
         text-align: center;
         color: #585858;
+      }
+    }
+  }
+
+  .feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 164px;
+    &-cycle {
+      position: relative;
+      content: "";
+      width: 516px;
+      height: 516px;
+      width: 50%;
+      height: 100%;
+      &-line-1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 222px;
+        height: 222px;
+        border-radius: 50%;
+        border: 1.4px solid #d7d7eb;
+      }
+      &-line-2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 384px;
+        height: 384px;
+        border-radius: 50%;
+        border: 1.4px solid #d7d7eb;
+      }
+      &-line-3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 516px;
+        height: 516px;
+        border-radius: 50%;
+        border: 1.4px solid #d7d7eb;
+      }
+    }
+    &-content {
+      margin-left: 48px;
+      width: 50%;
+      height: 100%;
+
+      &-header {
+        width: 464px;
+        height: 92px;
+        margin-bottom: 30px;
+
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 2%;
+        color: #4a4a4a;
+      }
+      &-text {
+        width: 522px;
+        height: 120px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.5%;
+        color: #575757;
       }
     }
   }
