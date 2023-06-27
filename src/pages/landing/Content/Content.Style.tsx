@@ -365,4 +365,35 @@ export const ContentContainer = styled.main`
       }
     }
   }
+
+  .cycle-item {
+    position: relative;
+    z-index: 1;
+    &-img-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &-img-1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(70px, -75px);
+    }
+    &-img-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70px, 166px);
+    }
+    &-img-3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-255px, -113px);
+    }
+    &-icon {
+    }
+  }
 `;

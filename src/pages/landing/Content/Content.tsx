@@ -1,9 +1,13 @@
 import React, { ReactElement } from "react";
 import { ContentContainer } from "./Content.Style";
 import Icon, { StarFilled, StarOutlined } from "@ant-design/icons";
+
+import { IconContext } from "react-icons";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { FcIdea } from "react-icons/fc";
 import { RxMagnifyingGlass } from "react-icons/rx";
+import { HiPresentationChartBar } from "react-icons/hi";
+import { GiTeamIdea } from "react-icons/gi";
 
 import logo2x from "../img/image1.png";
 import logo2x2 from "../img/image2.png";
@@ -11,6 +15,11 @@ import logo1 from "../img/features-image1.png";
 import logo2 from "../img/features-image2.png";
 import logo3 from "../img/features-image3.png";
 import logo4 from "../img/features-image4.png";
+import ellipse from "../img/Ellipse.png";
+import ellipse1 from "../img/Ellipse (1).png";
+import ellipse2 from "../img/Ellipse (2).png";
+import ellipse3 from "../img/Ellipse (3).png";
+import charge from "../img/fast-charge 1.png";
 
 import { GlobalStyles } from "../GlobalStyles/GlobalStyle.style";
 
@@ -161,6 +170,57 @@ export const Content = (): ReactElement => {
           </div>
           <div className="feature-container">
             <div className="feature-container-cycle">
+              <div className="feature-container-cycle-item">
+                <div className="cycle-item">
+                  <div
+                    className="cycle-item-img-center"
+                    style={{
+                      width: "74px",
+                      height: "74px",
+                      backgroundRepeat: "no-repeat",
+                      backgroundImage: `url(${ellipse})`,
+                    }}
+                  />
+                  <div
+                    className="cycle-item-img-1"
+                    style={{
+                      width: "44px",
+                      height: "44px",
+                      backgroundRepeat: "no-repeat",
+                      backgroundImage: `url(${ellipse1})`,
+                    }}
+                  />
+                  <div
+                    className="cycle-item-img-2"
+                    style={{
+                      width: "62px",
+                      height: "62px",
+                      backgroundRepeat: "no-repeat",
+                      backgroundImage: `url(${ellipse2})`,
+                    }}
+                  />
+                  <div
+                    className="cycle-item-img-3"
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      backgroundRepeat: "no-repeat",
+                      backgroundImage: `url(${ellipse3})`,
+                    }}
+                  />
+                  <div className="cycle-item-icon">
+                    <IconContext.Provider
+                      value={{ color: "blue", size: "4rem", className: "" }}
+                    >
+                      <div>
+                        <HiPresentationChartBar />
+                      </div>
+                    </IconContext.Provider>
+
+                    <GiTeamIdea />
+                  </div>
+                </div>
+              </div>
               <div className="feature-container-cycle-line-1"></div>
               <div className="feature-container-cycle-line-2"></div>
               <div className="feature-container-cycle-line-3"></div>
